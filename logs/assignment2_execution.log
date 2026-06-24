@@ -1,0 +1,106 @@
+2026-06-24 18:08:57,330 - INFO - CSCN8020 Assignment 2 Taxi Q-Learning notebook started.
+2026-06-24 18:08:57,496 - INFO - Training started: baseline_alpha_0.1_epsilon_0.1
+2026-06-24 18:08:57,496 - INFO - Hyperparameters - alpha=0.1, epsilon=0.1, gamma=0.9, episodes=5000
+2026-06-24 18:08:57,783 - INFO - baseline_alpha_0.1_epsilon_0.1 - Episode 500: Return=8, Steps=13
+2026-06-24 18:08:57,911 - INFO - baseline_alpha_0.1_epsilon_0.1 - Episode 1000: Return=8, Steps=13
+2026-06-24 18:08:58,011 - INFO - baseline_alpha_0.1_epsilon_0.1 - Episode 1500: Return=8, Steps=13
+2026-06-24 18:08:58,114 - INFO - baseline_alpha_0.1_epsilon_0.1 - Episode 2000: Return=-2, Steps=14
+2026-06-24 18:08:58,219 - INFO - baseline_alpha_0.1_epsilon_0.1 - Episode 2500: Return=-3, Steps=15
+2026-06-24 18:08:58,321 - INFO - baseline_alpha_0.1_epsilon_0.1 - Episode 3000: Return=6, Steps=15
+2026-06-24 18:08:58,421 - INFO - baseline_alpha_0.1_epsilon_0.1 - Episode 3500: Return=7, Steps=14
+2026-06-24 18:08:58,534 - INFO - baseline_alpha_0.1_epsilon_0.1 - Episode 4000: Return=8, Steps=13
+2026-06-24 18:08:58,675 - INFO - baseline_alpha_0.1_epsilon_0.1 - Episode 4500: Return=-2, Steps=14
+2026-06-24 18:08:58,824 - INFO - baseline_alpha_0.1_epsilon_0.1 - Episode 5000: Return=6, Steps=15
+2026-06-24 18:08:58,825 - INFO - Training completed: baseline_alpha_0.1_epsilon_0.1
+2026-06-24 18:08:58,825 - INFO - Final training metrics: {'total_episodes': 5000, 'average_return': -0.643, 'average_steps': 16.6414, 'last_500_average_return': 3.002, 'last_500_average_steps': 14.614}
+2026-06-24 18:08:58,845 - INFO - Policy evaluation for baseline_alpha_0.1_epsilon_0.1: {'evaluation_episodes': 100, 'evaluation_average_return': 8.0, 'evaluation_average_steps': 13.0}
+2026-06-24 18:08:59,944 - INFO - Training started: alpha_0.01_epsilon_0.1
+2026-06-24 18:08:59,945 - INFO - Hyperparameters - alpha=0.01, epsilon=0.1, gamma=0.9, episodes=5000
+2026-06-24 18:09:01,216 - INFO - alpha_0.01_epsilon_0.1 - Episode 500: Return=-140, Steps=116
+2026-06-24 18:09:01,598 - INFO - alpha_0.01_epsilon_0.1 - Episode 1000: Return=-17, Steps=29
+2026-06-24 18:09:01,725 - INFO - alpha_0.01_epsilon_0.1 - Episode 1500: Return=7, Steps=14
+2026-06-24 18:09:01,838 - INFO - alpha_0.01_epsilon_0.1 - Episode 2000: Return=5, Steps=16
+2026-06-24 18:09:01,956 - INFO - alpha_0.01_epsilon_0.1 - Episode 2500: Return=-2, Steps=14
+2026-06-24 18:09:02,119 - INFO - alpha_0.01_epsilon_0.1 - Episode 3000: Return=-2, Steps=14
+2026-06-24 18:09:02,228 - INFO - alpha_0.01_epsilon_0.1 - Episode 3500: Return=-2, Steps=14
+2026-06-24 18:09:02,337 - INFO - alpha_0.01_epsilon_0.1 - Episode 4000: Return=8, Steps=13
+2026-06-24 18:09:02,442 - INFO - alpha_0.01_epsilon_0.1 - Episode 4500: Return=5, Steps=16
+2026-06-24 18:09:02,533 - INFO - alpha_0.01_epsilon_0.1 - Episode 5000: Return=8, Steps=13
+2026-06-24 18:09:02,533 - INFO - Training completed: alpha_0.01_epsilon_0.1
+2026-06-24 18:09:02,534 - INFO - Final training metrics: {'total_episodes': 5000, 'average_return': -22.9278, 'average_steps': 32.2938, 'last_500_average_return': 2.356, 'last_500_average_steps': 14.63}
+2026-06-24 18:09:02,547 - INFO - Policy evaluation for alpha_0.01_epsilon_0.1: {'evaluation_episodes': 100, 'evaluation_average_return': 8.0, 'evaluation_average_steps': 13.0}
+2026-06-24 18:09:02,551 - INFO - Training started: alpha_0.001_epsilon_0.1
+2026-06-24 18:09:02,551 - INFO - Hyperparameters - alpha=0.001, epsilon=0.1, gamma=0.9, episodes=5000
+2026-06-24 18:09:03,787 - INFO - alpha_0.001_epsilon_0.1 - Episode 500: Return=-245, Steps=200
+2026-06-24 18:09:04,953 - INFO - alpha_0.001_epsilon_0.1 - Episode 1000: Return=-290, Steps=200
+2026-06-24 18:09:06,101 - INFO - alpha_0.001_epsilon_0.1 - Episode 1500: Return=-290, Steps=200
+2026-06-24 18:09:07,148 - INFO - alpha_0.001_epsilon_0.1 - Episode 2000: Return=-63, Steps=57
+2026-06-24 18:09:08,133 - INFO - alpha_0.001_epsilon_0.1 - Episode 2500: Return=-168, Steps=126
+2026-06-24 18:09:09,042 - INFO - alpha_0.001_epsilon_0.1 - Episode 3000: Return=-119, Steps=131
+2026-06-24 18:09:09,876 - INFO - alpha_0.001_epsilon_0.1 - Episode 3500: Return=-218, Steps=200
+2026-06-24 18:09:10,578 - INFO - alpha_0.001_epsilon_0.1 - Episode 4000: Return=-58, Steps=70
+2026-06-24 18:09:11,252 - INFO - alpha_0.001_epsilon_0.1 - Episode 4500: Return=-105, Steps=117
+2026-06-24 18:09:11,800 - INFO - alpha_0.001_epsilon_0.1 - Episode 5000: Return=-50, Steps=53
+2026-06-24 18:09:11,800 - INFO - Training completed: alpha_0.001_epsilon_0.1
+2026-06-24 18:09:11,800 - INFO - Final training metrics: {'total_episodes': 5000, 'average_return': -195.9516, 'average_steps': 152.0322, 'last_500_average_return': -96.794, 'last_500_average_steps': 88.778}
+2026-06-24 18:09:11,976 - INFO - Policy evaluation for alpha_0.001_epsilon_0.1: {'evaluation_episodes': 100, 'evaluation_average_return': -200.0, 'evaluation_average_steps': 200.0}
+2026-06-24 18:09:11,983 - INFO - Training started: alpha_0.2_epsilon_0.1
+2026-06-24 18:09:11,983 - INFO - Hyperparameters - alpha=0.2, epsilon=0.1, gamma=0.9, episodes=5000
+2026-06-24 18:09:12,138 - INFO - alpha_0.2_epsilon_0.1 - Episode 500: Return=-12, Steps=15
+2026-06-24 18:09:12,255 - INFO - alpha_0.2_epsilon_0.1 - Episode 1000: Return=8, Steps=13
+2026-06-24 18:09:12,364 - INFO - alpha_0.2_epsilon_0.1 - Episode 1500: Return=-14, Steps=17
+2026-06-24 18:09:12,476 - INFO - alpha_0.2_epsilon_0.1 - Episode 2000: Return=8, Steps=13
+2026-06-24 18:09:12,594 - INFO - alpha_0.2_epsilon_0.1 - Episode 2500: Return=-6, Steps=18
+2026-06-24 18:09:12,704 - INFO - alpha_0.2_epsilon_0.1 - Episode 3000: Return=4, Steps=17
+2026-06-24 18:09:12,812 - INFO - alpha_0.2_epsilon_0.1 - Episode 3500: Return=6, Steps=15
+2026-06-24 18:09:12,928 - INFO - alpha_0.2_epsilon_0.1 - Episode 4000: Return=-19, Steps=22
+2026-06-24 18:09:13,039 - INFO - alpha_0.2_epsilon_0.1 - Episode 4500: Return=8, Steps=13
+2026-06-24 18:09:13,168 - INFO - alpha_0.2_epsilon_0.1 - Episode 5000: Return=8, Steps=13
+2026-06-24 18:09:13,168 - INFO - Training completed: alpha_0.2_epsilon_0.1
+2026-06-24 18:09:13,168 - INFO - Final training metrics: {'total_episodes': 5000, 'average_return': 0.5838, 'average_steps': 15.819, 'last_500_average_return': 2.542, 'last_500_average_steps': 14.66}
+2026-06-24 18:09:13,191 - INFO - Policy evaluation for alpha_0.2_epsilon_0.1: {'evaluation_episodes': 100, 'evaluation_average_return': 8.0, 'evaluation_average_steps': 13.0}
+2026-06-24 18:09:13,209 - INFO - Training started: alpha_0.1_epsilon_0.2
+2026-06-24 18:09:13,209 - INFO - Hyperparameters - alpha=0.1, epsilon=0.2, gamma=0.9, episodes=5000
+2026-06-24 18:09:13,462 - INFO - alpha_0.1_epsilon_0.2 - Episode 500: Return=3, Steps=18
+2026-06-24 18:09:13,589 - INFO - alpha_0.1_epsilon_0.2 - Episode 1000: Return=6, Steps=15
+2026-06-24 18:09:13,718 - INFO - alpha_0.1_epsilon_0.2 - Episode 1500: Return=-4, Steps=16
+2026-06-24 18:09:13,843 - INFO - alpha_0.1_epsilon_0.2 - Episode 2000: Return=-20, Steps=23
+2026-06-24 18:09:13,955 - INFO - alpha_0.1_epsilon_0.2 - Episode 2500: Return=-3, Steps=15
+2026-06-24 18:09:14,065 - INFO - alpha_0.1_epsilon_0.2 - Episode 3000: Return=0, Steps=21
+2026-06-24 18:09:14,184 - INFO - alpha_0.1_epsilon_0.2 - Episode 3500: Return=-44, Steps=20
+2026-06-24 18:09:14,290 - INFO - alpha_0.1_epsilon_0.2 - Episode 4000: Return=-3, Steps=15
+2026-06-24 18:09:14,398 - INFO - alpha_0.1_epsilon_0.2 - Episode 4500: Return=-22, Steps=16
+2026-06-24 18:09:14,523 - INFO - alpha_0.1_epsilon_0.2 - Episode 5000: Return=-28, Steps=22
+2026-06-24 18:09:14,524 - INFO - Training completed: alpha_0.1_epsilon_0.2
+2026-06-24 18:09:14,524 - INFO - Final training metrics: {'total_episodes': 5000, 'average_return': -8.4484, 'average_steps': 18.907, 'last_500_average_return': -4.816, 'last_500_average_steps': 16.78}
+2026-06-24 18:09:14,535 - INFO - Policy evaluation for alpha_0.1_epsilon_0.2: {'evaluation_episodes': 100, 'evaluation_average_return': 8.0, 'evaluation_average_steps': 13.0}
+2026-06-24 18:09:14,542 - INFO - Training started: alpha_0.1_epsilon_0.3
+2026-06-24 18:09:14,542 - INFO - Hyperparameters - alpha=0.1, epsilon=0.3, gamma=0.9, episodes=5000
+2026-06-24 18:09:14,797 - INFO - alpha_0.1_epsilon_0.3 - Episode 500: Return=-3, Steps=15
+2026-06-24 18:09:14,925 - INFO - alpha_0.1_epsilon_0.3 - Episode 1000: Return=-7, Steps=19
+2026-06-24 18:09:15,066 - INFO - alpha_0.1_epsilon_0.3 - Episode 1500: Return=-16, Steps=19
+2026-06-24 18:09:15,197 - INFO - alpha_0.1_epsilon_0.3 - Episode 2000: Return=-10, Steps=22
+2026-06-24 18:09:15,328 - INFO - alpha_0.1_epsilon_0.3 - Episode 2500: Return=-29, Steps=23
+2026-06-24 18:09:15,467 - INFO - alpha_0.1_epsilon_0.3 - Episode 3000: Return=-24, Steps=18
+2026-06-24 18:09:15,593 - INFO - alpha_0.1_epsilon_0.3 - Episode 3500: Return=-49, Steps=25
+2026-06-24 18:09:15,727 - INFO - alpha_0.1_epsilon_0.3 - Episode 4000: Return=-4, Steps=16
+2026-06-24 18:09:15,871 - INFO - alpha_0.1_epsilon_0.3 - Episode 4500: Return=-25, Steps=19
+2026-06-24 18:09:16,006 - INFO - alpha_0.1_epsilon_0.3 - Episode 5000: Return=8, Steps=13
+2026-06-24 18:09:16,007 - INFO - Training completed: alpha_0.1_epsilon_0.3
+2026-06-24 18:09:16,007 - INFO - Final training metrics: {'total_episodes': 5000, 'average_return': -18.3088, 'average_steps': 21.5446, 'last_500_average_return': -13.734, 'last_500_average_steps': 19.146}
+2026-06-24 18:09:16,020 - INFO - Policy evaluation for alpha_0.1_epsilon_0.3: {'evaluation_episodes': 100, 'evaluation_average_return': 8.0, 'evaluation_average_steps': 13.0}
+2026-06-24 18:09:16,578 - INFO - Training started: best_combo_alpha_0.2_epsilon_0.2
+2026-06-24 18:09:16,578 - INFO - Hyperparameters - alpha=0.2, epsilon=0.2, gamma=0.9, episodes=5000
+2026-06-24 18:09:16,777 - INFO - best_combo_alpha_0.2_epsilon_0.2 - Episode 500: Return=-7, Steps=19
+2026-06-24 18:09:16,892 - INFO - best_combo_alpha_0.2_epsilon_0.2 - Episode 1000: Return=-5, Steps=17
+2026-06-24 18:09:17,016 - INFO - best_combo_alpha_0.2_epsilon_0.2 - Episode 1500: Return=-4, Steps=16
+2026-06-24 18:09:17,128 - INFO - best_combo_alpha_0.2_epsilon_0.2 - Episode 2000: Return=8, Steps=13
+2026-06-24 18:09:17,251 - INFO - best_combo_alpha_0.2_epsilon_0.2 - Episode 2500: Return=-3, Steps=15
+2026-06-24 18:09:17,366 - INFO - best_combo_alpha_0.2_epsilon_0.2 - Episode 3000: Return=-7, Steps=19
+2026-06-24 18:09:17,483 - INFO - best_combo_alpha_0.2_epsilon_0.2 - Episode 3500: Return=-7, Steps=19
+2026-06-24 18:09:17,633 - INFO - best_combo_alpha_0.2_epsilon_0.2 - Episode 4000: Return=5, Steps=16
+2026-06-24 18:09:17,764 - INFO - best_combo_alpha_0.2_epsilon_0.2 - Episode 4500: Return=-5, Steps=17
+2026-06-24 18:09:17,958 - INFO - best_combo_alpha_0.2_epsilon_0.2 - Episode 5000: Return=-2, Steps=14
+2026-06-24 18:09:17,958 - INFO - Training completed: best_combo_alpha_0.2_epsilon_0.2
+2026-06-24 18:09:17,958 - INFO - Final training metrics: {'total_episodes': 5000, 'average_return': -6.7474, 'average_steps': 17.9278, 'last_500_average_return': -4.758, 'last_500_average_steps': 16.776}
+2026-06-24 18:09:17,975 - INFO - Policy evaluation for best_combo_alpha_0.2_epsilon_0.2: {'evaluation_episodes': 100, 'evaluation_average_return': 8.0, 'evaluation_average_steps': 13.0}
