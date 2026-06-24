@@ -14,7 +14,7 @@ This project implements the Q-Learning algorithm on the Taxi Gymnasium environme
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_ID/CSCN8020_Assignment2.git
+git clone https://github.com/Kevin1362/CSCN8020_Assignment2.git
 ```
 
 2. Open the folder:
@@ -49,4 +49,4 @@ The solution uses a Q-table to store state-action values. The agent uses epsilon
 
 ## Repository Link
 
-https://github.com/YOUR_GITHUB_ID/CSCN8020_Assignment2
+https://github.com/Kevin1362/CSCN8020_Assignment2
